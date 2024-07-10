@@ -22,7 +22,7 @@ def main():
         gender_encoded = 1
 
     # Create a list of input features
-    input_features = [age, gender_encoded, height]
+    input_features = [age, gender_encoded, height, weight]
 
     # Make a prediction
     prediction = model.predict([input_features])
